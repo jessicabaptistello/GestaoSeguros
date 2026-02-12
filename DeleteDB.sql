@@ -1,0 +1,9 @@
+USE master;
+GO
+
+ALTER DATABASE SurpresasExistem
+SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+GO
+
+DROP DATABASE SurpresasExistem
+GO
